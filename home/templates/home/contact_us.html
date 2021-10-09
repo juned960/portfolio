@@ -1,0 +1,111 @@
+{% extends "./base.html" %}
+
+
+
+{% block tittle %} PORTFOLIO|Contact_us{% endblock %}
+{% block content %}
+{% load static %}
+<div class="bg-dark m-1 contaxt-main-div ">
+
+    <div class="container pt-5 pb-5 bg-dark">
+        <div class="row text-white ">
+
+            <div class="col-sm-12 col-lg-6 col-md-6 border ">
+                <div class="text-center">
+                    <h3>Feedback</h3>
+                    <hr>
+                </div>
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputName">Enter Your Name</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Enter Your Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                            else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Example textarea</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">are you ready to submit</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary ">Submit</button>
+                </form>
+            </div>
+
+
+
+            <div class="col-sm-12 col-md-6 col-lg-6 border">
+
+                <h3 class="text-center">Contact Us</h3>
+                <hr>
+
+                <div class="dbox w-100 d-flex align-items-start ">
+                    <div class="icon d-flex align-items-center justify-content-center ">
+                        <span class="fa fa-map-marker "></span>
+                    </div>
+                    <div class="text pl-3 ">
+                        <p><span>Address:</span> Bihar Nagar Saran</p>
+                    </div>
+                </div>
+                <br>
+                <div class="dbox w-100 d-flex align-items-center ">
+                    <div class="icon d-flex align-items-center justify-content-center ">
+                        <span class="fa fa-phone "></span>
+                    </div>
+                    <div class="text pl-3 ">
+                        <p><span>Phone:</span>
+                            <a href="tel://1234567920 ">+91 8083107536</a>
+                        </p>
+                    </div>
+                </div>
+                <br>
+                <div class="dbox w-100 d-flex align-items-center mt-20">
+                    <div class="icon d-flex align-items-center justify-content-center ">
+                        <span class="fa fa-envelope "></span>
+                    </div>
+                    <div class="text pl-3 ">
+                        <p><span>Email:</span> <a href="mailto:info@yoursite.com ">junedaslam96@gmail.com</a>
+                        </p>
+                    </div>
+                </div>
+                <br>
+
+                <div class="dbox w-100 d-flex align-items-center mt-20">
+                    <div class="icon d-flex align-items-center justify-content-center ">
+                        <span class="fa  fa-linkedin"></span>
+                    </div>
+                    <div class="text pl-3 ">
+                        <p><span>Linkdin:</span> <a href="https://www.linkedin.com/in/juned-aslam-5a4602207/">Juned
+                                Aslam</a>
+                        </p>
+                    </div>
+                </div>
+                <br>
+
+                <div class="dbox w-100 d-flex align-items-center mt-20">
+                    <div class="icon d-flex align-items-center justify-content-center ">
+                        <span class="fa  fa-twitter"></span>
+                    </div>
+                    <div class="text pl-3 ">
+                        <p><span>Linkdin:</span> <a href="https://twitter.com/juned961">@juned961</a>
+                        </p>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}

@@ -1,0 +1,7 @@
+.project-card:hover{
+   
+    box-shadow: 20px 20px 20px 0 rgb(58, 57, 57);
+    transform: translateY(-5px);
+    padding-bottom: 2px;
+
+}
