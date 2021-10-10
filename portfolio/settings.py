@@ -119,7 +119,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 import os
 STATIC_URL = '/static/'
-STATIC_ROOT =os.join(BASE_DIR ,'staticfile')
+STATIC_ROOT =os.path.join(BASE_DIR ,'staticfile')
 
 
 # Default primary key field type
