@@ -1,0 +1,58 @@
+{% extends "./base.html" %}
+{% load static %}
+
+{% block link %}
+<link rel="stylesheet" href="{% static 'home/css/project.css' %}">
+{% endblock %}
+
+{% block tittle %} PORTFOLIO|About_us{% endblock %}
+{% block content %}
+
+
+<div class="main-project-div pt-2 pb-5 " style="background-color: rgb(205, 205, 205);" >
+
+    <div class="container">
+        <div class="row pt-2">
+            <div class="col-lg-4 col-md-4 col-12 project-div ">
+                <div class="card img img-fluid project-card" style="width: 18rem;">
+                    <img class="card-img-top img-fluid"   src="{% static  'home/images/project1.png' %}" alt="Card image cap">
+                    <div class="card-body"> 
+                        <h5 class="card-title">CollegeKart</h5>
+                        <p class="card-text">This is a web application built using Django
+                            framework. This E-commerce website which
+                            helps the students to provide products related to their college and Foods
+                            uses.</p>
+                        <a href="https://clgkart.com" target="blank" class="btn btn-primary">View in new tab </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12 project-div">
+                <div class="card img img-fluid project-card" style="width: 18rem;">
+                    <img class="card-img-top img-fluid"  src="{% static  'home/images/project2.jpg' %}" alt="Card image cap">
+                    <div class="card-body"> 
+                        <h5 class="card-title">learning management system (LMS)</h5>
+                        <p class="card-text">This learning management system (LMS) is a software application or web-based technology used to plan, implement and assess a specific learning process. .</p>
+                        <a href="/static/home/images/project2.jpg"  target="blank"  class="btn btn-primary">view in new tab</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12 project-div">
+                <div class="card img img-fluid project-card" style="width: 18rem;">
+                    <img class="card-img-top img-fluid"  src="{% static  'home/images/project3.jpg' %}" alt="Card image cap">
+                    <div class="card-body"> 
+                        <h5 class="card-title">Blog Web Application</h5>
+                        <p class="card-text">
+                            This is a Blog application which is build using HTML CSS BOOTSRAP and DJANGO that allows users to create, edit, and delete posts. .</p>
+                        <a href="/static/home/images/project3.jpg"  target="blank"  class="btn btn-primary">view in new tab</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+{% endblock %}

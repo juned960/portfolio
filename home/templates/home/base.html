@@ -1,0 +1,186 @@
+{% load static%}
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!---cdnj-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   
+  <title>{% block tittle %}{% endblock %}</title>
+  
+  <link rel="stylesheet" href="{% static 'home/css/index.css' %}">
+  {% block link %}{% endblock %}
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+    <div class="container text-uppercase">
+      <a class="navbar-brand font-weight-bold text-white" href="/">juned aslam</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto text-info">
+          <li class="nav-item active">
+            <a class="nav-link" href="/about_us">About Us <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact_us">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/skill">Skill</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/project">Project</a>
+          </li>
+        </ul>
+
+      </div>
+  </nav>
+{% block content %}{% endblock %}
+
+
+  <!-----------------------------offer section  start---------------------->
+
+
+
+
+  
+  <!-- Footer -->
+  <footer class="text-center text-lg-start bg-dark text-muted">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom ">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block text-white ">
+        <p>Get connected with us on social networks:</p>
+      </div>
+      <!-- Left -->
+
+      <!-- Right -->
+      <div>
+        <a href="https://www.facebook.com/juned.aslam.9" class="mr-4 text-reset">
+          <i class="fa fa fa-facebook"></i>
+        </a>
+        <a href="https://twitter.com/juned961" class="mr-4 text-reset">
+          <i class="fa fa  fa-twitter"></i>
+        </a>
+
+        <a href="https://www.instagram.com/junedaslam96/" class="mr-4 text-reset">
+          <i class="fa fa  fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/juned-aslam-5a4602207" class="mr-4 text-reset">
+          <i class="fa fa  fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/juned960" class="mr-4 text-reset">
+          <i class="fa fa fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="text-white ">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>Company name
+            </h6>
+            <b>Portfolio</b>
+
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Useful links
+            </h6>
+            <p>
+              <a href="/about_us" class="text-reset">About Us</a>
+            </p>
+            <p>
+              <a href="/contact_us" class="text-reset">Contact Us</a>
+            </p>
+            <p>
+              <a href="/skill" class="text-reset">Skill</a>
+            </p>
+            <p>
+              <a href="/project" class="text-reset">Project</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase  fw-bold mb-4">
+              Contact
+            </h6>
+            <p><i class="fa fa-home me-3"></i> Nagra , saran ,Bihar </p>
+            <p>
+              <i class="fa fa-envelope me-3"></i>
+              junedaslam96@gmmail.com
+            </p>
+            <p><i class="fa fa-phone me-3"></i>
+              +91 8083107536</p>
+
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05); ">
+      © 2022 Copyright:
+      <a class="text-reset fw-bold" href="https://mdbootstrap.com/">junedportfolio.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+    <!--
+      <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="circle-progress.js"></script>
+    -->
+
+   
+</body>
+
+</html>

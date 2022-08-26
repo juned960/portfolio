@@ -1,0 +1,48 @@
+{% extends "./base.html" %}
+
+{% load static %}
+{% block tittle %} PORTFOLIO|About_us{% endblock %}
+
+
+{% block content %}
+
+
+<div class="main-about border ">
+
+  <div class=" about-div  bg-light border m-2">
+    <div class="container   pb-10">
+      <div class="row p-2 ">
+        <div class="col-lg-6 col-md-6 col-12 img-fluid w-25 h-25">
+          <img class="img-fluid " src="{% static 'home/images/juned1.jpg' %}" alt="">
+        </div>
+        <div class="col-lg-6 col-md-6 col-12 " style="color: gold;">
+
+          <p class="h3 font-weight-bold text-center " style=" text-shadow: 2px 2px #b7b0b0;">About me.</p>
+          <hr>
+          <p class="h5"> Hii I am Juned Aslam</p>
+
+
+          <p class="h6  lead" style="line-height: 150%; color: gold;">
+
+            I am a student of B-Tech (Computer Science Engineering) From <b>Budge Budge Institute of Technology
+              Kolkata.</b> Along with i have completed a course in <b>Full Stack Development</b> in Django and also Some
+            language <b>C ,C++ , Python</b>
+            <br>
+            <br>
+            I Passionate About Coding  and learning new technologies and frameworks
+            <br>I am also doing Competitive programming on <a href="https://www.codechef.com/users/juned96"><b>Codechef</b></a> 
+             <a href="https://auth.geeksforgeeks.org/user/juned96/practice/"><b>GeeksForGeeks</b></a> <a href="https://leetcode.com/juned96/"> <b>Leetcode</b></a> 
+             <br><br> 
+             My favorite sports is Cricket. My hobby is Playing cricket, coding
+            and shooting videos related to coding and CP for my Youtube channel.
+          </p>
+          <div class="text-right"> 💖💖💖💖💖</div>
+           
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+{% endblock %}
