@@ -1,2 +1,2 @@
 # portfolio
-https://junedportfolio.herokuapp.com/
+link: (https://portfoliojuned.up.railway.app/)
